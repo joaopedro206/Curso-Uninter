@@ -25,7 +25,7 @@ header h1{
     margin: 0%;
     padding-top: 100px;
 }
-header p{
+header>p{
     background-color: rgb(207, 194, 194);
     display: inline;
     padding: 10px;
@@ -67,6 +67,25 @@ ul{
    padding: 50px;
    font-size: 4em;
    text-shadow: 2px 2px 1px black;
+ }
+ #tela{
+   background-color: ;
+   width: 300px;
+   height: 300px;
+   display: block;
+   float: left;
+   margin: 0%;
+
+ }
+ #tela p{
+   font-family:Arial, Helvetica, sans-serif;
+   text-transform: capitalize;
+   padding: 10px;
+   margin-left: 150px;
+   border: 2px solid white;
+   width: 100px;
+   height: 200px;
+   overflow: hidden;
  }
 
  section{
