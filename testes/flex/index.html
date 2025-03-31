@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flex box</title>
+    <style>
+        body{
+            background-color: darkgray;
+            width: 90vw;
+            margin: auto;
+            
+        }
+        #conteiner{
+            border: 2px solid white;
+            height: 500px;
+            display: flex;
+            justify-content:flex-start;
+            align-items: flex-start;
+            flex-flow: row;
+            gap: 10px;
+            
+
+        }
+        #conteiner div{
+            border: 2px solid ;
+            height: 20px;
+            flex-basis: 130px;
+            flex-grow: 1;
+            flex-shrink: 2;
+            text-align: center;
+            
+
+        }
+        p{
+
+
+        }
+    </style>
+<body>
+    <div id="conteiner">
+        <div class="itens">Mercearia Gurgueia</div>
+        <div class="itens2">Lojao Sao Marcos</div>
+        <div class="itens3">Top 10</div>
+        <div class="itens4">Benedita</div>
+        
+    </div>
+    
+</body>
+</html>
