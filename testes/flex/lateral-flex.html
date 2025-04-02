@@ -9,19 +9,58 @@
             background-color: darkgray;
             text-align: center;
             margin: auto;
-            width: 90vw;
-            
-
         }
         header{
-
+            height:;
+            background-color: rgb(72, 105, 21);
         }
-        main{
+        header h1{
+            margin: 0%;
+            padding:20px ;
+            
+        }
+        #conteiner{
+            position: relative;
+            display: flex;
+            justify-content: end;
+            height: 100vh;
 
+            
+            
+        }
+        
+        div .lateral{
+            display: flex;
+            flex-direction: column;
+            width: 100px;
+            height: 100vh;
+            border: 1px solid;
+        }
+        .lateral .itens{
+            border: 1px solid;
+            padding: 5px;
+            margin: 1px;
+        }
+        
+        div .principal{
+            border: 1px solid;
+            z-index: 1;
+            position: relative; 
+            overflow: auto;
+            padding-bottom: 20px;
         }
         footer{
-            background-color: blueviolet;
-            
+            background-color: rgb(74, 173, 74);
+            position: fixed;
+            bottom: 0%;
+            width: 100%;
+            border: 1px solid;
+            z-index:1;
+        }
+        footer>p{
+                padding: 0%;
+                margin: 5px;
+                
         }
     </style>
 </head>
@@ -29,10 +68,21 @@
     <header>
         <h1>vou tentar fazer um site com barra lateral</h1>
     </header>
-    <main>
-        <h2>inrrevelante</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cupiditate quidem provident suscipit deserunt porro nostrum amet, illo rerum nihil cum ullam magni perferendis doloribus veniam nam non dolore modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, tenetur perspiciatis. Laudantium, neque voluptate eius assumenda suscipit hic amet doloremque soluta odio quae aliquam, perspiciatis optio natus voluptas fugit quasi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus voluptatibus quas cupiditate voluptate totam eius, ipsam, nostrum distinctio iste nobis enim ipsum! Omnis ea vitae maiores aliquid odit voluptatibus sit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi soluta nam odit, beatae repellat ab tempora totam quidem asperiores nobis doloremque enim corporis sunt repudiandae, fugit quasi rem excepturi?</p>
-    </main>
-    <footer>proxima pagina</footer>
+    <div id="conteiner">
+        <div class="lateral">
+            <div class="itens"><a href="#">casa</a></div>
+            <div class="itens"><a href="#"> supermecado</a></div>
+            <div class="itens"><a href="#">investimento</a></div>
+            <div class="itens"><a href="#">criptomoedas</a></div>
+        </div>
+        <div class="principal">
+            <main>
+                <h2>inrrevelante</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas cupiditate quidem provident suscipit deserunt porro nostrum amet, illo rerum nihil cum ullam magni perferendis doloribus veniam nam non dolore modi. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nulla, tenetur perspiciatis. Laudantium, neque voluptate eius assumenda suscipit hic amet doloremque soluta odio quae aliquam, perspiciatis optio natus voluptas fugit quasi! Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ducimus voluptatibus quas cupiditate voluptate totam eius, ipsam, nostrum distinctio iste nobis enim ipsum! Omnis ea vitae maiores aliquid odit voluptatibus sit. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Rerum commodi soluta nam odit, beatae repellat ab tempora totam quidem asperiores nobis doloremque enim corporis sunt repudiandae, fugit quasi rem excepturi?</p>
+            </main>
+        </div>
+    </div>
+    
+    <footer><p>proxima pagina</p></footer>
 </body>
 </html>
