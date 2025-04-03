@@ -1,0 +1,116 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
+body{
+    background-color: darkgray;
+    text-align: center;
+    margin: auto;
+}
+header{
+    position: relative;
+    height: 20vh;
+    background-color: rgb(72, 105, 21);
+    background-image: url(imagens/download\ \(2\).jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: center top;
+    background-position-y: 50%;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
+}
+header h1{
+    top: 0px;
+    margin: 0%;
+    padding:10px ;
+    font-size: 4.5vw;
+    color: rgba(255, 255, 255, 0.651);
+    
+}
+#conteiner{
+    display: flex;
+    height: 100vh;
+}
+
+div .lateral{
+    border: 1px solid;
+    border-top: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 40vw;
+    max-width: 100px;
+    height: 100vh;
+    
+}
+.lateral .itens{
+    border: 1px solid;
+    padding: 5px;
+    margin: 1px;
+    
+}
+
+.itens1{
+    border: 1px solid;
+    padding: 5px;
+    margin: 1px;
+    background-image: url(imagens/ouuuuu.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.itens2{
+    border: 1px solid;
+    padding: 5px;
+    margin: 1px;
+    background-image: url(imagens/imagemgalaxia.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.itens3{
+    border: 1px solid;
+    padding: 5px;
+    margin: 1px;
+    background-image: url(imagens/download\ \(3\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.itens4{
+    border: 1px solid;
+    padding: 5px;
+    margin: 1px;
+    background-image: url(imagens/download\ \(4\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+a{
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+        font-family: 'EB Garamond';
+        font-style: italic;
+        font-weight: 400;
+}
+div .principal{
+    width: 120vw;
+    
+    z-index: 1;
+    overflow: auto;
+    padding-bottom: 20px;
+}
+.principal h2{
+    margin: 0%;
+    font-size: 5vw;
+}
+footer{
+    background-image: url(imagens/download\ \(3\).jpg);
+    background-position-y: 10%;
+    position: fixed;
+    bottom: 0%;
+    width: 100%;
+    border: 1px solid;
+    z-index:1;
+}
+footer>p{
+        padding: 0%;
+        margin: 5px; 
+        color: white;
+
+        
+}
