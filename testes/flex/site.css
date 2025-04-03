@@ -16,8 +16,10 @@ header{
     background-position: center top;
     background-position-y: 50%;
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
+
 }
 header h1{
+    padding-top: 80px;
     top: 0px;
     margin: 0%;
     padding:10px ;
