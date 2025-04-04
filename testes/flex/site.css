@@ -2,11 +2,11 @@
 
 @import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap');
 body{
-    background-color: darkgray;
+    background-color: rgb(155, 154, 154);
     text-align: center;
     margin: auto;
 }
-header{
+#principal{
     position: relative;
     height: 20vh;
     background-color: rgb(72, 105, 21);
@@ -18,21 +18,23 @@ header{
     box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.247);
 
 }
-header h1{
-    padding-top: 80px;
+#principal h1{
+    
     top: 0px;
     margin: 0%;
-    padding:10px ;
+    padding: 10px;
     font-size: 4.5vw;
     color: rgba(255, 255, 255, 0.651);
     
 }
 #conteiner{
     display: flex;
-    height: 100vh;
+    
+    
 }
 
 div .lateral{
+    background-color: #330F0F;
     border: 1px solid;
     border-top: 0px;
     display: flex;
@@ -91,14 +93,25 @@ a{
 }
 div .principal{
     width: 120vw;
-    
     z-index: 1;
     overflow: auto;
     padding-bottom: 20px;
 }
 .principal h2{
+    background-color: #330F0F;
+    color: white;
     margin: 0%;
-    font-size: 5vw;
+    font-size: 3vw;
+    
+    font-family: 'EB Garamond';
+    font-style: normal;
+    text-transform: capitalize;
+}
+.blocos{
+    border: 1px solid;
+    width: 100px;
+    height: 100px;
+    
 }
 footer{
     background-image: url(imagens/download\ \(3\).jpg);
