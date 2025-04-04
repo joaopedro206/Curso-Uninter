@@ -41,17 +41,8 @@ div .lateral{
     display: flex;
     flex-direction: column;
     width: 40vw;
-    max-width: 100px;
-    height: 100vh;
-    
+    height: 77vh;
 }
-.lateral .itens{
-    border: 1px solid;
-    padding: 5px;
-    margin: 1px;
-    
-}
-
 .itens1{
     border: 1px solid;
     padding: 5px;
@@ -59,6 +50,8 @@ div .lateral{
     background-image: url(imagens/ouuuuu.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 .itens2{
     border: 1px solid;
@@ -67,6 +60,7 @@ div .lateral{
     background-image: url(imagens/imagemgalaxia.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    flex-grow: 1;
 }
 .itens3{
     border: 1px solid;
@@ -75,6 +69,7 @@ div .lateral{
     background-image: url(imagens/download\ \(3\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    flex-grow: 1;
 }
 .itens4{
     border: 1px solid;
@@ -83,9 +78,10 @@ div .lateral{
     background-image: url(imagens/download\ \(4\).jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    flex-grow: 1;
 }
 a{
-        font-size: 12px;
+        font-size: 5vw;
         text-decoration: none;
         color: white;
         font-family: 'EB Garamond';
@@ -94,7 +90,7 @@ a{
 }
 div .principal{
     
-    width: 120vw;
+    width: 220vw;
     z-index: 1;
     overflow: auto;
     padding-bottom: 20px;
