@@ -1,0 +1,16 @@
+@charset "UTF-8";
+body{
+    background-color: darkgray;
+}
+header{
+    height: 300px;
+    background-color: black;
+}
+.areas{
+    height: 300px;
+    background-color: aqua;
+}
+.sobre{
+    height: 300px;
+    background-color: beige;
+}
