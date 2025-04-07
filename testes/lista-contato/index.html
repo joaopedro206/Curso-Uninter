@@ -4,8 +4,65 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lista de contato</title>
+    <style>
+        .pri{
+            border: 1px solid;
+            background-color: aqua;
+            width: 200px;
+            height: 200px;
+            
+            position: relative;
+        }
+        div{
+            display: flex;
+            flex-direction: column;
+            border: 1px solid;
+            background-color: rgb(223, 34, 34);
+            width: 100px;
+            height: 90px;
+        }
+        .img{
+            width: 200px;
+            background-image: url(imagem/thumb01.jpg);
+            flex-grow: 1;
+            
+        }
+        .perfil{
+            position: absolute;
+            
+            
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background-image: url(imagem/1.jpg);
+        }
+        .cont{
+            flex-grow: 1;
+            position: relative;
+            width: 200px;
+            background-color: white;
+            flex-direction: row;
+        }
+        .cont img{
+            height: 10px;
+            
+        }
+    
+
+    </style>
 </head>
 <body>
-    
+    <ul>
+        <li>
+            <div class="pri">
+                <div class="img"></div>
+                <div class="perfil"></div>
+                <div class="cont">
+                    <img src="imagem/delete.png"alt="">
+                    <img src="imagem/edit.png" alt="">
+                </div>
+            </div>
+        </li>
+    </ul>
 </body>
 </html>
