@@ -1,59 +1,114 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Registro de Vendas</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #4CAF50;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+
+    .container {
+      max-width: 600px;
+      margin: 2rem auto;
+      background-color: white;
+      padding: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+
+    h2 {
+      margin-top: 0;
+      color: #333;
+    }
+
+    form {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    input, select {
+      padding: 0.8rem;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      font-size: 1rem;
+    }
+
+    button {
+      padding: 0.8rem;
+      background-color: #4CAF50;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      font-size: 1rem;
+      cursor: not-allowed; /* só pra mostrar que não funciona ainda */
+    }
+
+    .lista-vendas {
+      margin-top: 2rem;
+    }
+
+    .venda {
+      border-bottom: 1px solid #ddd;
+      padding: 0.5rem 0;
+    }
+
+    .venda span {
+      display: block;
+      color: #333;
+    }
+  </style>
 </head>
 <body>
-    <header>
-        <div id="tela">
-            <p>Ola Me Chamo Joao Pedro Eu Sou Um Estudante De ADS Que Trabalha Em Um Supermecado</p>
-            
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#">inicio</a></li>
-                <li><a href="#">blog</a></li>
-                <li><a href="#">cursos</a></li>
-            </ul>
-        </nav>
-        <div>
-            <h1>cursos serfrontend</h1>
-            <P>Tudo o Que Precisa Saber Para Iniciar Na Carreira</P>
-        </div>
-        
-    </header>
-    <section>
-        <article>
-            <h1>O HTML</h1>
-            <p>HTML (Linguagem de Marcação de HiperTexto) é o bloco de construção mais básico da web. Define o significado e a estrutura do conteúdo da web. Outras tecnologias além do HTML geralmente são usadas para descrever a aparência/apresentação (CSS) ou a funcionalidade/comportamento (JavaScript) de uma página da web.
-            </p>
-            <footer>
-                <a href="#">Saiba mais</a>
-            </footer>
-        </article>
-        <article>
-            <h1>O CSS</h1>
-            <p>CSS (Cascading Style Sheets ou Folhas de Estilo em Cascata) é uma linguagem de estilo (en-US) usada para descrever a apresentação de um documento escrito em HTML ou em XML (incluindo várias linguagens em XML como SVG, MathML ou XHTML). O CSS descreve como elementos são mostrados na tela, no papel, na fala ou em outras mídias.</p>
-            <footer>
-                <a href="#">Saiba Mais</a>
-            </footer>
-        </article>
-        <article>
-            <h1>O JavaScript</h1>
-            <p>JavaScript® (às vezes abreviado para JS) é uma linguagem leve, interpretada e baseada em objetos com funções de primeira classe, mais conhecida como a linguagem de script para páginas Web, mas usada também em vários outros ambientes sem browser, tais como node.js, Apache CouchDB e Adobe Acrobat. O JavaScript é uma linguagem baseada em protótipos, multi-paradigma e dinâmica, suportando estilos de orientação a objetos, imperativos e declarativos (como por exemplo a programação funcional). Saiba mais sobre o JavaScript.
-            </p>
-        
-            <footer>
-                <a href="#">Saiba Mais</a>
-            </footer>
-        </article>
-    </section>
-    <footer>
-        <p>Copyright © 2016</p>
-    </footer>
-    
+
+  <header>
+    <h1>Registrar Vendas</h1>
+  </header>
+
+  <div class="container">
+    <h2>Nova Venda</h2>
+    <form>
+      <input type="text" placeholder="Nome do Produto" required>
+      <input type="number" placeholder="Valor da Venda (R$)" required>
+      <input type="date" required>
+      <input type="text" placeholder="Nome do Cliente (opcional)">
+      <button disabled>Registrar Venda (ainda não funciona)</button>
+    </form>
+
+    <div class="lista-vendas">
+      <h2>Vendas Registradas</h2>
+
+      <!-- Exemplo de venda anotada manualmente -->
+      <div class="venda">
+        <span><strong>Produto:</strong> Vestido Floral</span>
+        <span><strong>Valor:</strong> R$ 89,90</span>
+        <span><strong>Data:</strong> 18/04/2025</span>
+        <span><strong>Cliente:</strong> Maria Oliveira</span>
+      </div>
+
+      <div class="venda">
+        <span><strong>Produto:</strong> Camisa Polo</span>
+        <span><strong>Valor:</strong> R$ 59,90</span>
+        <span><strong>Data:</strong> 17/04/2025</span>
+        <span><strong>Cliente:</strong> João Silva</span>
+      </div>
+
+    </div>
+  </div>
+
 </body>
 </html>
+
+
