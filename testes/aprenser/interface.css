@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+
+body{
+    margin: 0%;
+    padding: 0%;
+}
+.topo_aprenser{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 70px 20px 50px;
+
+}
+.lista_sobre{
+    color: white;
+    display: flex;
+    padding: 0px;
+    align-items: center;
+    gap: 20px;
+}
+.lista_sobre > li{
+    list-style-type: none;
+    border: 1px solid rgb(255, 231, 10);
+    padding: 10px;
+    color: rgb(255, 231, 10);
+    
+
+}
