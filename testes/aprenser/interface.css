@@ -4,13 +4,16 @@
 body{
     margin: 0%;
     padding: 0%;
+    font-size: 16px;
+}
+.hero_header{
+    background-image: linear-gradient(to top,rgba(255, 255, 0, 0.795),rgba(255, 255, 9, 0.473),rgba(255, 255, 10, 0.185),rgba(255, 255, 10, 0));
 }
 .topo_aprenser{
     background-color: black;
     display: flex;
     justify-content: space-between;
-    padding: 20px 70px 20px 50px;
-
+    padding: 0px 70px 20px 50px;
 }
 .lista_sobre{
     color: white;
@@ -24,6 +27,40 @@ body{
     border: 1px solid rgb(255, 231, 10);
     padding: 10px;
     color: rgb(255, 231, 10);
-    
+}
 
+.hero_header{
+    display: flex;
+
+}
+.hero_text{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hero_image{
+    width: 500px;
+    height: 500px;
+}
+.titulo_frase{
+    font-size: 4em;
+    text-align: left;
+    margin-left: 8%;
+}
+.saiba_mais{
+    font-size: 1.5em;
+    margin-left: 8%;
+    width: fit-content;
+    background-color: hsl(50, 100%, 50%);
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+    border-radius: 5px;
+
+}
+/*ate aqui foi o header*/
+.curso_main{
+    display: flex;
+}
+.curso_main img{
+    width: 350px;
 }
