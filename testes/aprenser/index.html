@@ -12,21 +12,23 @@
         <img src="imagens/logoAprenser.png" alt="">
         <ul class="lista_sobre">
             <li>cursos</li>
-            <li>nossa escola</li>
+            <li><a href="#nossa-escola">nossa escola</a></li>
             <li>contatos</li>
         </ul>
     </nav>
-    <header class="hero_header">
-    
-        <div class="hero_text">
-            <h1 class="titulo_frase">o saber e o que transforma <br> nosso ser</h1>
-            <a href="#" class="saiba_mais">saiba mais</a>
-        </div>
-        <img src="imagens/HeroImage.png" class="hero_image" alt="">
-    
-    </header>
-    <article>
-        <h2>principais cursos</h2>
+    <div class="conteiner_hero">
+        <header class="hero_header">
+        
+            <div class="hero_text">
+                <h1 class="titulo_frase">o saber e o que transforma <br> nosso ser</h1>
+                <a href="#" class="saiba_mais">saiba mais</a>
+            </div>
+            <img src="imagens/HeroImage.png" class="hero_image" alt="">
+        
+        </header>
+    </div>
+    <article class="primeiro_artigo">
+        <h2 class="titulo_curso">principais cursos</h2>
         <section class="curso_main">
                 <div>
                     <img src="imagens/curso-design.png"  alt="">
@@ -49,26 +51,31 @@
             </div>
         </section>
 
-            <a href="#">ver mais cursos</a>
-            
-        <section>
+            <a href="#" class="curso_extras">ver mais cursos</a>
+        </article>
+        <article class="segundo_artigo">
             <img src="imagens/nossa-escola.png" alt="">
-            <h2>nosso escola</h2>
-            <p>Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola de tecnologia online. Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento de software até design gráfico e análise de dados. Nossos instrutores experientes fornecerão a você um ambiente de aprendizado interativo e de suporte para ajudá-lo a adquirir as habilidades necessárias para ter sucesso em sua carreira. Inscreva-se agora e comece sua jornada para se tornar um profissional de tecnologia bem-sucedido.
+            <div class="conteiner_artigo2" id="nossa-escola">
+                <h2>nossa escola</h2>
+                <p>Aprenda habilidades tecnológicas em demanda e alcance seus objetivos de carreira com a nossa escola de tecnologia online. Oferecemos uma ampla gama de cursos online, desde programação e desenvolvimento de software até design gráfico e análise de dados. Nossos instrutores experientes fornecerão a você um ambiente de aprendizado interativo e de suporte para ajudá-lo a adquirir as habilidades necessárias para ter sucesso em sua carreira. Inscreva-se agora e comece sua jornada para se tornar um profissional de tecnologia bem-sucedido.
+            </div>
             </p>
-        </section>
-    </article>
-    <footer>
-        <h2>contatos</h2>
+        </article>
+    
+    <footer class="localizaçao">
         
-        <address>
-            <p>av.da liberdade, 1001</p>
-            <p>tel.: +35121123456</p>
-            <p>E-mail: contato@aprenser.com
-            </p>
-
-        </address>
-        <div>Desenvolvido por Serliv</div>
+        
+        <div class="conteiner_address">
+            
+            <address>
+                <h2>contatos</h2>
+                <p>av.da liberdade, 1001</p>
+                <p>tel.: +35121123456</p>
+                <p>E-mail: contato@aprenser.com
+                </p>
+            </address>
+        </div>
+        <div class="rodaper">Desenvolvido por Serliv</div>
     </footer>
 
 

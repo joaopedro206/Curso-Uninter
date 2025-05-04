@@ -1,13 +1,23 @@
 @charset "UTF-8";
 
 
-body{
+body, html {
+    min-height: 100vh;
     margin: 0%;
     padding: 0%;
-    font-size: 16px;
+    font-size: 16px; 
+    min-width: 400px;
+    max-width: 1200px;
+    margin: auto;
+   
+}
+.conteiner_hero{
+    max-width: 1200px;
 }
 .hero_header{
-    background-image: linear-gradient(to top,rgba(255, 255, 0, 0.795),rgba(255, 255, 9, 0.473),rgba(255, 255, 10, 0.185),rgba(255, 255, 10, 0));
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
 }
 .topo_aprenser{
     background-color: black;
@@ -28,19 +38,10 @@ body{
     padding: 10px;
     color: rgb(255, 231, 10);
 }
-
-.hero_header{
-    display: flex;
-
-}
 .hero_text{
     display: flex;
     justify-content: center;
     flex-direction: column;
-}
-.hero_image{
-    width: 500px;
-    height: 500px;
 }
 .titulo_frase{
     font-size: 4em;
@@ -55,12 +56,94 @@ body{
     padding: 10px 30px 10px 30px;
     text-decoration: none;
     border-radius: 5px;
-
+}
+.hero_image{
+   width: 100%;
 }
 /*ate aqui foi o header*/
+.primeiro_artigo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .curso_main{
     display: flex;
+    justify-content: center;
+    gap: 3%;
+    width: 100%;
+    padding-bottom: 30px;
+}
+.titulo_curso{
+    font-size: 2.5rem;
+    margin: 50px;
+}
+.curso_main div{
+    min-width: 200px;
+    max-width: 350px;
+    height: 380px;
+    border-radius: 10px;
+    background-color: rgb(202, 192, 192);
+    text-align: center;
+}
+.curso_main h3,p{
+    padding: 0px 10px 0px 10px;
 }
 .curso_main img{
-    width: 350px;
+   width: 100%;
 }
+.curso_extras{
+    
+    background-color: hsl(50, 100%, 50%);
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.5em;
+    margin: 50px;
+}
+.segundo_artigo{
+    background-color: rgba(4, 4, 67, 0.874);
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.conteiner_artigo2{
+    max-width: 576px;
+}
+.conteiner_artigo2 h2{
+    text-transform: capitalize;
+    padding-left: 10px;
+    padding-top: 50px;
+    padding-bottom: 10px;
+}
+.localizaçao{
+    margin: 0%;
+    background-image: url(imagens/pexels-lara-jameson-8828454.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.localizaçao address{
+    width: fit-content;
+    
+    
+}
+.conteiner_address{
+    display: flex;
+    justify-content:flex-end;
+}
+.localizaçao address{
+    margin: 30px;
+    background-color: rgba(0, 0, 0, 0.294);
+    color: white;
+    padding: 20px;
+    height: 20vh;
+    font-size: 2vh;
+}
+.rodaper{
+    text-align: center;
+    padding: 10px;
+    background-color: black;
+    color: white;
+}
+
+
