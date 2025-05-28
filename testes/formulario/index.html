@@ -6,24 +6,59 @@
     <title>formulario</title>
     <style>
         body{
-            width: 200px;
-            background-color: black;
+            
+            background-color:darkgray;
             color: white;
             margin: auto;
-
         }
+        .conteiner-formulario{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: black;
+            
+        }
+        legend{
+            text-align: center;
+        }
+        fieldset{
+            background-color: aliceblue;
+            padding: 10px;
+            border: none;
+        }
+        form{
+           display: flex;
+            flex-direction: column; 
+            margin: 2%;
+            border:none;
+            
+        }
+        .acesso{
+            margin-top:3% ;
+            width: fit-content;
+            
+        }
+        
+
     </style>
 <body>
-    <h1>formulario de busca</h1>
-    <fieldset>
-        <legend>login</legend>
-        <form action="https://www.google.com/search" method="post" target="_blank">
-            <label for="Nome">Nome Do Usuario</label>
-            <input type="text" id="Nome">
-            <label for="senha">Senha do usuario</label>
-            <input type="password" id="senha">
-            <input type="submit" value="ACESSAR">
-        </form>
-    </fieldset>
+    <div class="conteiner-formulario">
+        <h1>Login</h1>
+        
+            <fieldset>
+                <form action="https://www.google.com/search" method="post" target="_blank">
+                    <legend>ensira os dados aqui</legend>
+                        <label for="Nome">Nome Do Usuario</label>
+                        <input type="text" id="Nome" autofocus>
+                        <label for="senha">Senha do usuario</label>
+                        <input type="password" id="senha" required>
+                        <input type="submit" value="ACESSAR" class="acesso">
+                
+                </form>
+            </fieldset>
+        
+    </div>
 </body>
 </html>
