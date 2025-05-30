@@ -40,7 +40,15 @@
             width: fit-content;
             
         }
-        
+        .seleçao{
+            display: flex;
+            flex-direction: row;
+           
+        }
+        #e{
+            display: flex;
+            flex-direction: row;
+        }
 
     </style>
 <body>
@@ -55,8 +63,14 @@
                         <label for="senha">Senha do usuario</label>
                         <input type="password" id="senha" required>
                         <input type="submit" value="ACESSAR" class="acesso">
-                
                 </form>
+                <fieldset class="seleçao">
+                    <form action="" method="get" id="e">
+                        <label ><input type="checkbox" name="1" id="">1</label>
+                        <label ><input type="checkbox" name="2" id="">2</label>
+                        <label ><input type="checkbox" name="3" id="">3</label>
+                    </form>
+                </fieldset>
             </fieldset>
         
     </div>
