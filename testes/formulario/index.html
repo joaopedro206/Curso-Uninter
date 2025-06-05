@@ -49,7 +49,9 @@
             display: flex;
             flex-direction: row;
         }
-
+        textarea{
+            resize: none;
+        }
     </style>
 <body>
     <div class="conteiner-formulario">
@@ -85,10 +87,13 @@
                         <option value="">22</option>
                         <option value="">23</option>
                     </optgroup>
-                    
-
                 </select>
+                <fieldset>
+                <legend>mensagem</legend>
+                <textarea name="" cols="30" rows="10" maxlength="10"></textarea>
+               </fieldset>
             </fieldset>
+            
         
     </div>
 </body>
